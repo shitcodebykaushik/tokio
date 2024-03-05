@@ -668,6 +668,7 @@ version = "0.1.0"
 dependencies = [
  "mini-redis",
  "num_cpus",
+ "serde_json",
  "tokio 1.36.0",
 ]
 
