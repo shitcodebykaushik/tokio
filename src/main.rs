@@ -1,3 +1,4 @@
-fn main (){
-    
+fn main() {
+    println!("Logical CPUs: {}", num_cpus::get());
+    println!("Physical CPUs: {}", num_cpus::get_physical());
 }

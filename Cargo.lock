@@ -667,6 +667,7 @@ name = "tokio"
 version = "0.1.0"
 dependencies = [
  "mini-redis",
+ "num_cpus",
  "tokio 1.36.0",
 ]
 
